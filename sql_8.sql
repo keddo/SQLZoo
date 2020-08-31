@@ -129,3 +129,5 @@ AND rt4.stop = (SELECT stops.id
                FROM stops
                WHERE name = 'Lochend')
 ORDER BY rt1.num, st1.name, rt3.num;
+
+-- Final tutorial
