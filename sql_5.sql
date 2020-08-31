@@ -76,3 +76,4 @@ JOIN goal
 ON goal.matchid = game.id
 GROUP BY mdate, team1, team2
 ORDER BY mdate, matchid, team1, team2;
+
